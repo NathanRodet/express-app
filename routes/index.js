@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 /* GET index page. */
-router.get('/', function (res) {
+router.get('/', function (req, res) {
   try {
     res.status(200).send("Index page");
   } catch (error) {
@@ -12,7 +12,7 @@ router.get('/', function (res) {
 });
 
 /* GET teapot. */
-router.get('/teapot', function (res) {
+router.get('/teapot', function (req, res) {
   try {
     res.status(418).send("I'm a teapot !");
   } catch (error) {
