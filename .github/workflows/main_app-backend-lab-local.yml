@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'app-backend-lab-local'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A4CAF6F44D8344DA838C3CFAB7A217AF }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B7EDD904300744FCB2563EB02BF21F68 }}
           package: .
